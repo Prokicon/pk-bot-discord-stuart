@@ -14,6 +14,7 @@ spec:
       labels:
         app: pk-bkd-bot-stuart
     spec:
+      serviceAccountName: pk-bkd-bot-stuart
       containers:
         - name: pk-bkd-bot-stuart
           image: ghcr.io/prokicon/pk-bot-discord-stuart
